@@ -1,0 +1,32 @@
+!------------------------------------------------------------------------------
+! Input file for MC_HMS_SINGLE						5/20/02
+!
+!
+!------------------------------------------------------------------------------
+     1000000	Monte-Carlo trials
+     4735.	Beam energy (in MeV/c)
+     2696.5	Spectrometer momentum (in MeV/c)
+     16.01	Spectrometer angle (in degrees)
+    -12.0       M.C. DP/P  down limit               (dp/p, th, ph changed 
+     12.0       M.C. DP/P  up   limit                from default values
+    -40.0       M.C. Theta (horiz) down limit (mr)   on nov17)
+     40.0       M.C. Theta (horiz) up limit (mr)
+    -250.0      M.C. Phi   (vert) down limit (mr)
+     50.0      M.C. Phi   (vert) up limit (mr)
+     1.0	Raster radius (cm)
+      -0.2	Horiz raster offset (cm)
+      0.2	Vertical raster offset (cm)
+     50.0	DP/P  reconstruction cut (half width in % )
+     100.0	Theta (horiz) reconstruction cut (half width in mr)
+     200.0	Phi   (vert) reconstruction cut (half width in mr)
+     50.0	ZTGT  reconstruction cut (Half width in cm)
+     0		particle identification: e=0, p=1, d=2, pi=3, ka=4
+     1		flag for multiple scattering
+     1		flag for wire chamber smearing
+     0  	flag for QFS internal radiation: 1=on, 0=off
+     1   	flag to turn on target magnetic field: 1=on, 0=off
+     -80.0	target magnetic field direction: minus sign is beam left
+     1          reconstruction flag: 1=yes, 0=not
+     1          radiation flag (simc way): 1=on, 0=off
+     1.0        A>2 inelastic xsec scale factor
+     .5        packing fraction
